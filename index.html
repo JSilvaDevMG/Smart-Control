@@ -7,17 +7,25 @@
     <title>Smart Control</title>
 </head>
 <body>
+    <header>
     <h1>Smart Control</h1>
+    </header>
+
+    <main>
     <form method="post">
         <p><label for="email">Insira seu email:</label></p>
-        <input type="text" name="email" id="email" placeholder="Digite seu email" required>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
 
         <p><label for="senha">Insira sua senha:</label></p>
         <input type="password" name="senha" id="senha"  placeholder="Digite sua senha" required>
+        </form>
 
-        <p><u><a href=""></a><label>Esqueci a senha</label></u>
-        <u><a href=""></a><label>Registrar-se</label></u></p>
-        <button>Entrar</button>
-    </form>
+        <p><u><label>Esqueci a senha</label></u>
+        <u><label>Registrar-se</label></u></p>
+        
+        <nav class="entrar"></nav>
+        <ul class="links">
+        <a href="dashboard.html"><button>Entrar</button></a>
+        </main>
 </body>
 </html>
