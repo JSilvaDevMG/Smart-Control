@@ -13,17 +13,26 @@
 
     <main>
     <form action="dashboard.html" method="get">
-        <h2>Faça seu login</h2>
+        <h2>Registrar-se</h2>
+        <label for="usuario">Insira seu nome de usuário:</label>
+        <input type="text" name="usuario" id="usuario" placeholder="Digite seu nome de usuário" required>
+
+        <label for="nome">Insira seu nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+
         <label for="email">Insira seu email:</label>
         <input type="email" name="email" id="email" placeholder="Digite seu email" required>
 
         <label for="senha">Insira sua senha:</label>
         <input type="password" name="senha" id="senha"  placeholder="Digite sua senha" required>
 
-        <a href="recuperacao.html">Esqueci minha senha</a>
-        <a href="cadastro.html">Registrar-se</a>
+        <label for="repetir_senha">Repita sua senha:</label>
+        <input type="password" name="repetir_senha" id="repetir_senha"  placeholder="Digite novamente sua senha" required>
         
-        <button type="submit">Entrar</button>
+        <label for="termos"><u>Termos de uso</u></label>
+        <input type="checkbox" name="termos" required>
+
+        <button type="submit">Registrar</button>
     </form>
     </main>
 </body>
